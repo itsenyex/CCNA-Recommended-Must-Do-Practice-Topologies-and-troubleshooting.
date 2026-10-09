@@ -1,0 +1,12 @@
+If you are setting up your own topologies from scratch in Packet Tracer, build these three master labs to cover most (about 70-90 percent) of the tested exam CLI:
+
+Lab A (The Switching & L2 Block): Build a 3-switch topology. Create VLANs 10, 20, 30. Configure 802.1Q trunks, 
+an LACP EtherChannel between two switches, set up Rapid PVST+ with a forced Root Bridge, and enable BPDU Guard on all access ports.  
+
+
+​Lab B (The Routing & Edge Block): Connect a Layer 3 switch to a router using Router-on-a-Stick (ROAS) or SVIs.
+Run single-area OSPFv2 between the router and an edge router. Configure a floating static route as a backup ISP path.  
+
+
+​Lab C (The Services & Security Block): On your edge router, configure a DHCP pool with excluded addresses, set up Dynamic PAT (NAT Overload) for outbound internet traffic,
+and apply an Extended ACL on the LAN interface to block HTTP traffic from VLAN 10 while allowing it from VLAN 20. 
